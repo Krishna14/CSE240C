@@ -3,7 +3,9 @@ Advanced Microarchitecture - Contributions related to the micro-architectural re
 
 ### Instructions for homework 1
 
-To run the code, please run ./latencyComputation.o. If you choose to compile from src, run the Makefile.
+To run the code, please run ./latencyComputation.o. If you choose to compile from src, please run the following command
+
+g++ -o latencyComputation.o latencyComputation.cpp
 
 That will generate the latencyComputation.o which could later be run. 
 

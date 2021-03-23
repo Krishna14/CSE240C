@@ -21,3 +21,12 @@ The following steps are used to generate the files needed to test the values gen
 1. Generate the extended asm file. Based on the architecture that needs to be tested, we generate the different forms of asm code.
 2. The current version only supports GCC asm code. I will add more support for the Linux Kernel in the near future.
 3. To start the runs, please run the generate_files.py using python3 generate_files.py. That will automatically generate the runtimes for the different experiments.
+
+
+### Instructions to run the code for side channel attack generation
+
+In this project, I have collaborated with Zhenya Ma to deconstruct the prefetcher and develop a prefetcher aware side channel attack.
+
+1. The results for the prefetcher aware side channel attack have been presented in the report.
+2. Please look at the README inside the CacheSC folder to understand more about this attack.
+3. Code has been edited from @Miro Haller's work.

@@ -1,0 +1,464 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDR_TRANSLATION_H	include/addr_translation.h	12;"	d
+ADDR_TRANSLATION_H	src/addr_translation.h	12;"	d
+ARGON_INCL	demo/Makefile	/^    ARGON_INCL = \/usr\/include\/$/;"	m
+ARGON_LIB	demo/Makefile	/^    ARGON_LIB = \/usr\/lib64\/$/;"	m
+ASSOCIATIVITY	src/gen_cache_asm_files.py	/^        ASSOCIATIVITY   = extract_macro(f"{cache_level}_ASSOCIATIVITY", lines)$/;"	v
+AUTO_GEN_FILES	src/Makefile	/^AUTO_GEN_FILES := l1_asm.h l2_asm.h$/;"	m
+BANNER	include/io.h	42;"	d
+BANNER	src/io.h	42;"	d
+BANNER_LEN	include/io.h	41;"	d
+BANNER_LEN	src/io.h	41;"	d
+BLOCK_PAD	demo/openssl-aes-cbc.c	62;"	d	file:
+CACHELINE_SIZE	include/device_conf.h	37;"	d
+CACHELINE_SIZE	src/device_conf.h	37;"	d
+CACHE_GROUP_SIZE	include/device_conf.h	38;"	d
+CACHE_GROUP_SIZE	src/device_conf.h	38;"	d
+CACHE_LEVELS	src/gen_cache_asm_files.py	/^CACHE_LEVELS    = ["L1", "L2"]$/;"	v
+CACHE_TYPES_FNAME	src/gen_cache_asm_files.py	/^CACHE_TYPES_FNAME   = "cache_types.h"$/;"	v
+CC	demo/Makefile	/^CC	:= gcc$/;"	m
+CC	src/Makefile	/^CC          := gcc$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS      := -std=gnu99 -O1 -Winline$/;"	m
+CL_NEXT_OFFSET	include/cache_types.h	60;"	d
+CL_NEXT_OFFSET	src/cache_types.h	60;"	d
+CL_NEXT_OFFSET	src/gen_cache_asm_files.py	/^    CL_NEXT_OFFSET  = extract_macro("CL_NEXT_OFFSET", lines)$/;"	v
+CL_PREV_OFFSET	include/cache_types.h	61;"	d
+CL_PREV_OFFSET	src/cache_types.h	61;"	d
+CL_PREV_OFFSET	src/gen_cache_asm_files.py	/^    CL_PREV_OFFSET  = extract_macro("CL_PREV_OFFSET", lines)$/;"	v
+COLLISION_REP	include/cache.h	37;"	d
+COLLISION_REP	src/cache.h	37;"	d
+CONF_FNAME	src/gen_cache_asm_files.py	/^CONF_FNAME          = "device_conf.h"$/;"	v
+CPUID_AFFECTED_REGS	include/asm.h	32;"	d
+CPUID_AFFECTED_REGS	src/asm.h	32;"	d
+CPU_NUMBER	demo/argon2d-attacker.c	57;"	d	file:
+CPU_NUMBER	demo/argon2d-victim.c	42;"	d	file:
+CPU_NUMBER	demo/openssl-aes-cbc.c	53;"	d	file:
+CPU_NUMBER	demo/single-eviction.c	38;"	d	file:
+CURR_PATH	demo/Makefile	/^CURR_PATH := $(realpath $(dir $(realpath $(firstword $(MAKEFILE_LIST)))))$/;"	m
+CURR_PATH	src/Makefile	/^CURR_PATH	:= $(realpath $(dir $(realpath $(firstword $(MAKEFILE_LIST)))))$/;"	m
+ConfEntry	scripts/parser.py	/^ConfEntry = namedtuple("ConfEntry", "default type pattern")$/;"	v
+DEFAULT	scripts/parser.py	/^    DEFAULT     = 1$/;"	v	class:LogFile
+DEFAULT_FLAGS	include/cache_types.h	51;"	d
+DEFAULT_FLAGS	src/cache_types.h	51;"	d
+Enum	scripts/parser.py	/^from enum import Enum$/;"	i
+FULL_CACHE_ATTACK	demo/argon2d-attacker.c	49;"	d	file:
+Fore	scripts/logger.py	/^from colorama import Fore, Style$/;"	i
+GET_BIT	include/cache_types.h	43;"	d
+GET_BIT	src/cache_types.h	43;"	d
+HASH_LEN	demo/argon2d-victim.c	45;"	d	file:
+HEADERS	src/Makefile	/^HEADERS 	:= $(LIBHEADERS) $(LIBSRCS:.c=.h)$/;"	m
+HEADER_ASM_H	include/asm.h	28;"	d
+HEADER_ASM_H	src/asm.h	28;"	d
+HEADER_CACHESC_H	include/cachesc.h	28;"	d
+HEADER_CACHESC_H	src/cachesc.h	28;"	d
+HEADER_CACHE_CONF_H	include/cache_types.h	30;"	d
+HEADER_CACHE_CONF_H	src/cache_types.h	30;"	d
+HEADER_CACHE_H	include/cache.h	31;"	d
+HEADER_CACHE_H	src/cache.h	31;"	d
+HEADER_DEVICE_CONF_H	include/device_conf.h	30;"	d
+HEADER_DEVICE_CONF_H	src/device_conf.h	30;"	d
+HEADER_IO_H	include/io.h	29;"	d
+HEADER_IO_H	src/io.h	29;"	d
+HEADER_L1_ASM_H	include/l1_asm.h	7;"	d
+HEADER_L1_ASM_H	src/l1_asm.h	7;"	d
+HEADER_L2_ASM_H	include/l2_asm.h	7;"	d
+HEADER_L2_ASM_H	src/l2_asm.h	7;"	d
+HEADER_UTIL_H	include/util.h	30;"	d
+HEADER_UTIL_H	src/util.h	30;"	d
+HEADER_VICTIM_H	include/victim.h	29;"	d
+HEADER_VICTIM_H	src/victim.h	29;"	d
+INCL_DIR	src/Makefile	/^INCL_DIR	:= $(INST_PATH)\/include$/;"	m
+INDENT	include/io.h	43;"	d
+INDENT	src/io.h	43;"	d
+INDENT_LEN	scripts/logger.py	/^INDENT_LEN      = 4$/;"	v
+INST_PATH	demo/Makefile	/^    INST_PATH = $(realpath $(dir $(CURR_PATH)))$/;"	m
+INST_PATH	src/Makefile	/^    INST_PATH = $(realpath $(dir $(CURR_PATH)))$/;"	m
+IS_CACHE_GROUP_INIT	include/cache_types.h	57;"	d
+IS_CACHE_GROUP_INIT	src/cache_types.h	57;"	d
+IS_FIRST	include/cache_types.h	55;"	d
+IS_FIRST	src/cache_types.h	55;"	d
+IS_LAST	include/cache_types.h	56;"	d
+IS_LAST	src/cache_types.h	56;"	d
+IV_LEN	demo/openssl-aes-cbc.c	57;"	d	file:
+IntEnum	scripts/logger.py	/^from enum import IntEnum$/;"	i
+KEY_LEN	demo/openssl-aes-cbc.c	58;"	d	file:
+L1	include/cache_types.h	/^enum cache_level {L1, L2};$/;"	e	enum:cache_level
+L1	src/cache_types.h	/^enum cache_level {L1, L2};$/;"	e	enum:cache_level
+L1_ACCESS_TIME	include/device_conf.h	46;"	d
+L1_ACCESS_TIME	src/device_conf.h	46;"	d
+L1_ADDRESSING	include/device_conf.h	43;"	d
+L1_ADDRESSING	src/device_conf.h	43;"	d
+L1_ASSOCIATIVITY	include/device_conf.h	45;"	d
+L1_ASSOCIATIVITY	src/device_conf.h	45;"	d
+L1_SETS	include/device_conf.h	44;"	d
+L1_SETS	src/device_conf.h	44;"	d
+L2	include/cache_types.h	/^enum cache_level {L1, L2};$/;"	e	enum:cache_level
+L2	src/cache_types.h	/^enum cache_level {L1, L2};$/;"	e	enum:cache_level
+L2_ACCESS_TIME	include/device_conf.h	51;"	d
+L2_ACCESS_TIME	src/device_conf.h	51;"	d
+L2_ADDRESSING	include/device_conf.h	48;"	d
+L2_ADDRESSING	src/device_conf.h	48;"	d
+L2_ASSOCIATIVITY	include/device_conf.h	50;"	d
+L2_ASSOCIATIVITY	src/device_conf.h	50;"	d
+L2_SETS	include/device_conf.h	49;"	d
+L2_SETS	src/device_conf.h	49;"	d
+L3_ACCESS_TIME	include/device_conf.h	56;"	d
+L3_ACCESS_TIME	src/device_conf.h	56;"	d
+L3_ADDRESSING	include/device_conf.h	53;"	d
+L3_ADDRESSING	src/device_conf.h	53;"	d
+L3_ASSOCIATIVITY	include/device_conf.h	55;"	d
+L3_ASSOCIATIVITY	src/device_conf.h	55;"	d
+L3_SETS	include/device_conf.h	54;"	d
+L3_SETS	src/device_conf.h	54;"	d
+LIB	src/Makefile	/^LIB         := libcachesc.a$/;"	m
+LIBHEADERS	src/Makefile	/^LIBHEADERS  := cachesc.h io.h asm.h cache_types.h device_conf.h \\$/;"	m
+LIBOBJS	src/Makefile	/^LIBOBJS     := $(LIBSRCS:.c=.o)$/;"	m
+LIBSRCS	src/Makefile	/^LIBSRCS     := cache.c util.c victim.c addr_translation.c$/;"	m
+LIB_DIR	src/Makefile	/^LIB_DIR		:= $(INST_PATH)\/lib$/;"	m
+LogFile	scripts/parser.py	/^class LogFile(Enum):$/;"	c
+LogLevel	scripts/logger.py	/^class LogLevel(IntEnum):$/;"	c
+LogLevel	scripts/parser.py	/^from logger import Logger, LogLevel$/;"	i
+Logger	scripts/logger.py	/^class Logger:$/;"	c
+Logger	scripts/parser.py	/^from logger import Logger, LogLevel$/;"	i
+Logger	scripts/plot-log.py	/^from logger import Logger$/;"	i
+MAX_LINE_LENGTH	scripts/logger.py	/^MAX_LINE_LENGTH = TITLE_LINE_LEN - 4$/;"	v
+MSRMTS_PER_SAMPLE	demo/argon2d-attacker.c	56;"	d	file:
+MSRMTS_PER_SAMPLE	demo/openssl-aes-cbc.c	54;"	d	file:
+MSRMTS_PER_SAMPLE	demo/single-eviction.c	46;"	d	file:
+NORMAL	scripts/logger.py	/^    NORMAL  = 1$/;"	v	class:LogLevel
+OPENSSL_INCL	demo/Makefile	/^    OPENSSL_INCL = \/usr\/include\/$/;"	m
+OPENSSL_LIB	demo/Makefile	/^    OPENSSL_LIB = \/usr\/lib64\/$/;"	m
+OUT	demo/Makefile	/^OUT := single-eviction openssl-aes-cbc argon2d-attacker argon2d-victim$/;"	m
+PAGE_MASK	include/cache_types.h	41;"	d
+PAGE_MASK	src/cache_types.h	41;"	d
+PAGE_SIZE	include/device_conf.h	33;"	d
+PAGE_SIZE	src/device_conf.h	33;"	d
+PARTIAL_ATTACK_LEN	demo/argon2d-attacker.c	54;"	d	file:
+PARTIAL_ATTACK_SETS	demo/argon2d-attacker.c	50;"	d	file:
+PHYSICAL	include/cache_types.h	/^enum addressing_type {VIRTUAL, PHYSICAL};$/;"	e	enum:addressing_type
+PHYSICAL	src/cache_types.h	/^enum addressing_type {VIRTUAL, PHYSICAL};$/;"	e	enum:addressing_type
+PLRU_REPS	include/cache_types.h	37;"	d
+PLRU_REPS	src/cache_types.h	37;"	d
+PRIME	demo/single-eviction.c	47;"	d	file:
+PRINT_FLUSH	include/io.h	35;"	d
+PRINT_FLUSH	src/io.h	35;"	d
+PRINT_LINE	include/io.h	39;"	d
+PRINT_LINE	src/io.h	39;"	d
+PROCESSOR_FREQ	include/device_conf.h	34;"	d
+PROCESSOR_FREQ	src/device_conf.h	34;"	d
+PT_LEN	demo/openssl-aes-cbc.c	61;"	d	file:
+PWD_LEN	demo/argon2d-victim.c	47;"	d	file:
+PagemapEntry	include/addr_translation.h	/^} PagemapEntry;$/;"	t	typeref:struct:__anon1
+PagemapEntry	src/addr_translation.h	/^} PagemapEntry;$/;"	t	typeref:struct:__anon2
+Parser	scripts/parser.py	/^class Parser:$/;"	c
+Parser	scripts/plot-log.py	/^from parser import Parser$/;"	i
+RDTSCP_AFFECTED_REGS	include/asm.h	34;"	d
+RDTSCP_AFFECTED_REGS	src/asm.h	34;"	d
+RDTSC_AFFECTED_REGS	include/asm.h	33;"	d
+RDTSC_AFFECTED_REGS	src/asm.h	33;"	d
+REMOVE_PAGE_OFFSET	include/cache_types.h	42;"	d
+REMOVE_PAGE_OFFSET	src/cache_types.h	42;"	d
+SALT_LEN	demo/argon2d-victim.c	46;"	d	file:
+SETS	src/gen_cache_asm_files.py	/^        SETS            = extract_macro(f"{cache_level}_SETS", lines)$/;"	v
+SET_BIT	include/cache_types.h	44;"	d
+SET_BIT	src/cache_types.h	44;"	d
+SET_CACHE_GROUP_INIT	include/cache_types.h	54;"	d
+SET_CACHE_GROUP_INIT	src/cache_types.h	54;"	d
+SET_FIRST	include/cache_types.h	52;"	d
+SET_FIRST	src/cache_types.h	52;"	d
+SET_LAST	include/cache_types.h	53;"	d
+SET_LAST	src/cache_types.h	53;"	d
+SET_MASK	include/cache_types.h	39;"	d
+SET_MASK	src/cache_types.h	39;"	d
+SILENT	scripts/logger.py	/^    SILENT  = 0$/;"	v	class:LogLevel
+START_TIMER_FN	src/gen_cache_asm_files.py	/^START_TIMER_FN      = "start_timer"$/;"	v
+STOP_TIMER_FN	src/gen_cache_asm_files.py	/^STOP_TIMER_FN       = "stop_timer"$/;"	v
+SUBDIRS	Makefile	/^SUBDIRS := src$/;"	m
+SimpleNamespace	scripts/parser.py	/^from types import SimpleNamespace$/;"	i
+Style	scripts/logger.py	/^from colorama import Fore, Style$/;"	i
+TARGETS	Makefile	/^TARGETS := all clean rebuild$/;"	m
+TARGET_BYTE	demo/openssl-aes-cbc.c	52;"	d	file:
+TARGET_CACHE	demo/argon2d-attacker.c	55;"	d	file:
+TARGET_CACHE	demo/single-eviction.c	45;"	d	file:
+TARGET_SET	demo/single-eviction.c	40;"	d	file:
+TITLE_LINE_LEN	scripts/logger.py	/^TITLE_LINE_LEN  = 64$/;"	v
+TITLE_SEP	scripts/logger.py	/^TITLE_SEP       = "#" * TITLE_LINE_LEN$/;"	v
+TRANSFER_REG	include/asm.h	35;"	d
+TRANSFER_REG	src/asm.h	35;"	d
+TRIM_HIGH_PERCENTAGE	scripts/plot-log.py	/^TRIM_HIGH_PERCENTAGE    = 0.05$/;"	v
+TRIM_LOW_PERCENTAGE	scripts/plot-log.py	/^TRIM_LOW_PERCENTAGE     = 0$/;"	v
+VERBOSE	scripts/logger.py	/^    VERBOSE = 2$/;"	v	class:LogLevel
+VIRTUAL	include/cache_types.h	/^enum addressing_type {VIRTUAL, PHYSICAL};$/;"	e	enum:addressing_type
+VIRTUAL	src/cache_types.h	/^enum addressing_type {VIRTUAL, PHYSICAL};$/;"	e	enum:addressing_type
+_GNU_SOURCE	include/cache.h	34;"	d
+_GNU_SOURCE	include/util.h	33;"	d
+_GNU_SOURCE	include/victim.h	32;"	d
+_GNU_SOURCE	src/cache.h	34;"	d
+_GNU_SOURCE	src/util.h	33;"	d
+_GNU_SOURCE	src/victim.h	32;"	d
+_XOPEN_SOURCE	include/addr_translation.h	15;"	d
+_XOPEN_SOURCE	src/addr_translation.h	15;"	d
+__init__	scripts/logger.py	/^    def __init__(self, name, log_level=LogLevel.NORMAL):$/;"	m	class:Logger
+__init__	scripts/parser.py	/^    def __init__(self, log_level=LogLevel.NORMAL):$/;"	m	class:Parser
+abortHandler	demo/argon2d-attacker.c	/^void abortHandler(int unused) {$/;"	f
+access_diff	include/cache.h	/^static inline uint32_t access_diff(void *p) {$/;"	f
+access_diff	src/cache.h	/^static inline uint32_t access_diff(void *p) {$/;"	f
+access_time	include/cache_types.h	/^    uint32_t access_time;$/;"	m	struct:cache_ctx
+access_time	src/cache_types.h	/^    uint32_t access_time;$/;"	m	struct:cache_ctx
+accesstime	include/asm.h	/^static inline uint32_t accesstime(void *p) {$/;"	f
+accesstime	src/asm.h	/^static inline uint32_t accesstime(void *p) {$/;"	f
+accesstime_overhead	include/asm.h	/^static inline uint32_t accesstime_overhead() {$/;"	f
+accesstime_overhead	src/asm.h	/^static inline uint32_t accesstime_overhead() {$/;"	f
+action	scripts/plot-log.py	/^                    action="store_true")$/;"	v
+addressing	include/cache_types.h	/^    addressing_type addressing;$/;"	m	struct:cache_ctx
+addressing	src/cache_types.h	/^    addressing_type addressing;$/;"	m	struct:cache_ctx
+addressing_type	include/cache_types.h	/^enum addressing_type {VIRTUAL, PHYSICAL};$/;"	g
+addressing_type	include/cache_types.h	/^typedef enum addressing_type addressing_type;$/;"	t	typeref:enum:addressing_type
+addressing_type	src/cache_types.h	/^enum addressing_type {VIRTUAL, PHYSICAL};$/;"	g
+addressing_type	src/cache_types.h	/^typedef enum addressing_type addressing_type;$/;"	t	typeref:enum:addressing_type
+allocate_cache_ds	src/cache.c	/^cacheline **allocate_cache_ds(cache_ctx *ctx) {$/;"	f
+allocate_cache_ds_phys	src/cache.c	/^void allocate_cache_ds_phys(cache_ctx *ctx, cacheline **cl_ptr_arr) {$/;"	f
+allocate_cache_ds_phys_priv	src/cache.c	/^void allocate_cache_ds_phys_priv(cache_ctx *ctx, cacheline **cl_ptr_arr,$/;"	f
+allocate_cache_ds_phys_unpriv	src/cache.c	/^void allocate_cache_ds_phys_unpriv(cache_ctx *ctx, cacheline **cl_ptr_arr,$/;"	f
+argparse	scripts/plot-log.py	/^import argparse$/;"	i
+args	scripts/plot-log.py	/^args = parser.parse_args()$/;"	v
+asm_l1_probe_cacheset	include/l1_asm.h	/^static inline cacheline *asm_l1_probe_cacheset(cacheline *curr_cl) {$/;"	f
+asm_l1_probe_cacheset	src/l1_asm.h	/^static inline cacheline *asm_l1_probe_cacheset(cacheline *curr_cl) {$/;"	f
+asm_l2_probe_cacheset	include/l2_asm.h	/^static inline cacheline *asm_l2_probe_cacheset(cacheline *curr_cl) {$/;"	f
+asm_l2_probe_cacheset	src/l2_asm.h	/^static inline cacheline *asm_l2_probe_cacheset(cacheline *curr_cl) {$/;"	f
+associativity	include/cache_types.h	/^    uint32_t associativity;$/;"	m	struct:cache_ctx
+associativity	src/cache_types.h	/^    uint32_t associativity;$/;"	m	struct:cache_ctx
+avg_bl_per_entry	scripts/plot-log.py	/^    avg_bl_per_entry = list(map(tmean, bl_samples))$/;"	v
+avg_per_entry	scripts/plot-log.py	/^avg_per_entry   = list(map(tmean, samples))$/;"	v
+bl_samples	scripts/plot-log.py	/^        bl_samples = list(map(list, zip(*bl_samples)))$/;"	v
+build_cache_ds	src/cache.c	/^cacheline *build_cache_ds(cache_ctx *ctx, cacheline **cl_ptr_arr) {$/;"	f
+build_randomized_list_for_cache_set	src/cache.c	/^void build_randomized_list_for_cache_set(cache_ctx *ctx, cacheline **cacheline_ptr_arr)$/;"	f
+cache_ctx	include/cache_types.h	/^struct cache_ctx {$/;"	s
+cache_ctx	include/cache_types.h	/^typedef struct cache_ctx cache_ctx;$/;"	t	typeref:struct:cache_ctx
+cache_ctx	src/cache_types.h	/^struct cache_ctx {$/;"	s
+cache_ctx	src/cache_types.h	/^typedef struct cache_ctx cache_ctx;$/;"	t	typeref:struct:cache_ctx
+cache_ds_sanity_check	src/cache.c	/^int cache_ds_sanity_check(cache_ctx *ctx, cacheline *head) {$/;"	f
+cache_level	include/cache_types.h	/^    cache_level cache_level;$/;"	m	struct:cache_ctx
+cache_level	include/cache_types.h	/^enum cache_level {L1, L2};$/;"	g
+cache_level	include/cache_types.h	/^typedef enum cache_level cache_level;$/;"	t	typeref:enum:cache_level
+cache_level	src/cache_types.h	/^    cache_level cache_level;$/;"	m	struct:cache_ctx
+cache_level	src/cache_types.h	/^enum cache_level {L1, L2};$/;"	g
+cache_level	src/cache_types.h	/^typedef enum cache_level cache_level;$/;"	t	typeref:enum:cache_level
+cache_level_lowercase	src/gen_cache_asm_files.py	/^    cache_level_lowercase = cache_level.lower()$/;"	v
+cache_set	include/cache_types.h	/^    uint16_t cache_set;$/;"	m	struct:cacheline
+cache_set	src/cache_types.h	/^    uint16_t cache_set;$/;"	m	struct:cacheline
+cache_size	include/cache_types.h	/^    uint32_t cache_size;$/;"	m	struct:cache_ctx
+cache_size	src/cache_types.h	/^    uint32_t cache_size;$/;"	m	struct:cache_ctx
+cacheline	include/cache_types.h	/^struct cacheline {$/;"	s
+cacheline	include/cache_types.h	/^typedef struct cacheline cacheline;$/;"	t	typeref:struct:cacheline
+cacheline	src/cache_types.h	/^struct cacheline {$/;"	s
+cacheline	src/cache_types.h	/^typedef struct cacheline cacheline;$/;"	t	typeref:struct:cacheline
+can_trans_phys_addrs	include/cache_types.h	/^static bool can_trans_phys_addrs(cache_ctx *ctx) {$/;"	f
+can_trans_phys_addrs	src/cache_types.h	/^static bool can_trans_phys_addrs(cache_ctx *ctx) {$/;"	f
+cl_insert	include/cache_types.h	/^static void cl_insert(cacheline *last_cl, cacheline *new_cl) {$/;"	f
+cl_insert	src/cache_types.h	/^static void cl_insert(cacheline *last_cl, cacheline *new_cl) {$/;"	f
+cl_remove	include/cache_types.h	/^static void cl_remove(cacheline *cl) {$/;"	f
+cl_remove	src/cache_types.h	/^static void cl_remove(cacheline *cl) {$/;"	f
+cl_replace	include/cache_types.h	/^static void cl_replace(cacheline *new_cl, cacheline *old_cl) {$/;"	f
+cl_replace	src/cache_types.h	/^static void cl_replace(cacheline *new_cl, cacheline *old_cl) {$/;"	f
+clear_cache	include/cache.h	/^static inline void clear_cache(cache_ctx *ctx) {$/;"	f
+clear_cache	src/cache.h	/^static inline void clear_cache(cache_ctx *ctx) {$/;"	f
+clflush	include/asm.h	/^static inline void clflush(void *p) {$/;"	f
+clflush	src/asm.h	/^static inline void clflush(void *p) {$/;"	f
+cpuid	include/asm.h	/^static inline void cpuid() {$/;"	f
+cpuid	src/asm.h	/^static inline void cpuid() {$/;"	f
+debug	scripts/logger.py	/^    def debug(self, s):$/;"	m	class:Logger
+dedent	src/gen_cache_asm_files.py	/^from textwrap import dedent$/;"	i
+default	scripts/plot-log.py	/^                    default=".\/plots")$/;"	v
+default	scripts/plot-log.py	/^                    default="tuple()")$/;"	v
+do_normalize	scripts/plot-log.py	/^do_normalize  = args.normalize$/;"	v
+do_transpose	scripts/plot-log.py	/^do_transpose  = args.transpose$/;"	v
+error	scripts/logger.py	/^    def error(self, msg):$/;"	m	class:Logger
+extract_if_present	scripts/parser.py	/^    def extract_if_present(self, line, pattern, curr_val, default_val, type_conv):$/;"	m	class:Parser
+extract_macro	src/gen_cache_asm_files.py	/^def extract_macro(macro_name, lines, type_conv=int):$/;"	f
+file_page	include/addr_translation.h	/^    unsigned int file_page : 1;$/;"	m	struct:__anon1
+file_page	src/addr_translation.h	/^    unsigned int file_page : 1;$/;"	m	struct:__anon2
+find_collisions	src/cache.c	/^uint32_t find_collisions(cache_ctx *ctx, cacheline *cl_candidates,$/;"	f
+finish_identifying_groups	src/cache.c	/^void finish_identifying_groups(cache_ctx *ctx, cacheline **cache_set_ds_ptrs,$/;"	f
+flags	include/cache_types.h	/^    uint16_t flags;$/;"	m	struct:cacheline
+flags	src/cache_types.h	/^    uint16_t flags;$/;"	m	struct:cacheline
+footer	src/gen_cache_asm_files.py	/^    footer = f"\\n#endif \/\/ HEADER_{cache_level}_ASM_H"$/;"	v
+footnote	scripts/plot-log.py	/^footnote = f"Trimming data to ({TRIM_LOW_PERCENTAGE}, {1 - TRIM_HIGH_PERCENTAGE})"$/;"	v
+gen_rand_bytes	src/util.c	/^void gen_rand_bytes(unsigned char *arr, uint32_t arr_len) {$/;"	f
+gen_random_indices	src/util.c	/^void gen_random_indices(uint32_t *arr, uint32_t arr_len) {$/;"	f
+get_all_msrmts_in_order	include/cache.h	/^static inline void get_all_msrmts_in_order(cacheline *head, time_type *res) {$/;"	f
+get_all_msrmts_in_order	src/cache.h	/^static inline void get_all_msrmts_in_order(cacheline *head, time_type *res) {$/;"	f
+get_avg	src/util.c	/^double get_avg(uint32_t *arr, uint32_t arr_len) {$/;"	f
+get_cache_ctx	include/cache_types.h	/^static cache_ctx *get_cache_ctx(cache_level cache_level) {$/;"	f
+get_cache_ctx	src/cache_types.h	/^static cache_ctx *get_cache_ctx(cache_level cache_level) {$/;"	f
+get_cache_ds_len	include/cache_types.h	/^static uint32_t get_cache_ds_len(cacheline *cache_ds) {$/;"	f
+get_cache_ds_len	src/cache_types.h	/^static uint32_t get_cache_ds_len(cacheline *cache_ds) {$/;"	f
+get_cache_set	include/cache_types.h	/^static uint16_t get_cache_set(cache_ctx *ctx, void *ptr) {$/;"	f
+get_cache_set	src/cache_types.h	/^static uint16_t get_cache_set(cache_ctx *ctx, void *ptr) {$/;"	f
+get_cache_set_helper	include/cache_types.h	/^static uint16_t get_cache_set_helper(uint32_t sets, void *ptr) {$/;"	f
+get_cache_set_helper	src/cache_types.h	/^static uint16_t get_cache_set_helper(uint32_t sets, void *ptr) {$/;"	f
+get_max	src/util.c	/^uint32_t get_max(uint32_t *arr, uint32_t arr_len) {$/;"	f
+get_min	src/util.c	/^uint32_t get_min(uint32_t *arr, uint32_t arr_len) {$/;"	f
+get_msrmt_for_set	include/cache.h	/^static inline void get_msrmt_for_set(cacheline *head, time_type *res) {$/;"	f
+get_msrmt_for_set	src/cache.h	/^static inline void get_msrmt_for_set(cacheline *head, time_type *res) {$/;"	f
+get_msrmts_for_all_set	include/cache.h	/^static inline void get_msrmts_for_all_set(cacheline *head, time_type *res) {$/;"	f
+get_msrmts_for_all_set	src/cache.h	/^static inline void get_msrmts_for_all_set(cacheline *head, time_type *res) {$/;"	f
+get_per_set_sum_of_msrmts	include/cache.h	/^static inline void get_per_set_sum_of_msrmts(cacheline *head, time_type *res) {$/;"	f
+get_per_set_sum_of_msrmts	src/cache.h	/^static inline void get_per_set_sum_of_msrmts(cacheline *head, time_type *res) {$/;"	f
+get_phys_addr	src/addr_translation.c	/^int get_phys_addr(uintptr_t *paddr, uintptr_t vaddr)$/;"	f
+get_phys_cache_set	include/cache_types.h	/^static uint16_t get_phys_cache_set(cache_ctx *ctx, void *ptr) {$/;"	f
+get_phys_cache_set	src/cache_types.h	/^static uint16_t get_phys_cache_set(cache_ctx *ctx, void *ptr) {$/;"	f
+get_spanned_cache_lines	include/cache_types.h	/^static uint32_t get_spanned_cache_lines(cache_ctx *ctx, uint64_t size) {$/;"	f
+get_spanned_cache_lines	src/cache_types.h	/^static uint32_t get_spanned_cache_lines(cache_ctx *ctx, uint64_t size) {$/;"	f
+get_virt_cache_set	include/cache_types.h	/^static uint16_t get_virt_cache_set(cache_ctx *ctx, void *ptr) {$/;"	f
+get_virt_cache_set	src/cache_types.h	/^static uint16_t get_virt_cache_set(cache_ctx *ctx, void *ptr) {$/;"	f
+handleErrors	demo/openssl-aes-cbc.c	/^static inline void handleErrors(void) {$/;"	f	file:
+has_collision	src/cache.c	/^bool has_collision(cache_ctx *ctx, cacheline *cl_candidate, cacheline *cache_set_ds,$/;"	f
+help	scripts/plot-log.py	/^                    help="path to folder for the produced plots",$/;"	v
+identify_cache_sets	src/cache.c	/^void identify_cache_sets(cache_ctx *ctx, cacheline *coll_cl, cacheline *cache_set_ds,$/;"	f
+idx	scripts/plot-log.py	/^idx = 0$/;"	v
+incq	include/asm.h	/^static inline void incq(void *p) {$/;"	f
+incq	src/asm.h	/^static inline void incq(void *p) {$/;"	f
+is_cached	include/cache.h	/^static inline bool is_cached(cache_ctx *ctx, void *p) {$/;"	f
+is_cached	src/cache.h	/^static inline bool is_cached(cache_ctx *ctx, void *p) {$/;"	f
+is_in_arr	src/util.c	/^bool is_in_arr(uint32_t elem, uint32_t *arr, uint32_t arr_len) {$/;"	f
+lfence	include/asm.h	/^static inline void lfence() {$/;"	f
+lfence	src/asm.h	/^static inline void lfence() {$/;"	f
+line	scripts/logger.py	/^    def line(self, line):$/;"	m	class:Logger
+lines	src/gen_cache_asm_files.py	/^        lines = conf_fp.readlines()$/;"	v
+lines	src/gen_cache_asm_files.py	/^    lines = gen_conf_fp.readlines()$/;"	v
+log_file_name	scripts/plot-log.py	/^    log_file_name = log_file_name.rsplit("\/", 1)[1]$/;"	v
+log_file_name	scripts/plot-log.py	/^log_file_name = log_file_path$/;"	v
+log_file_path	scripts/plot-log.py	/^log_file_path = args.log_file$/;"	v
+logger	scripts/plot-log.py	/^logger = Logger("plot")$/;"	v
+main	demo/argon2d-attacker.c	/^int main(int argc, char **argv)$/;"	f
+main	demo/argon2d-victim.c	/^int main(int argc, char **argv)$/;"	f
+main	demo/openssl-aes-cbc.c	/^int main(int argc, char **argv) {$/;"	f
+main	demo/single-eviction.c	/^int main(int argc, char **argv) {$/;"	f
+matplotlib	scripts/plot-log.py	/^import matplotlib.pyplot as plt$/;"	i
+mfence	include/asm.h	/^static inline void mfence() {$/;"	f
+mfence	src/asm.h	/^static inline void mfence() {$/;"	f
+mpl	scripts/plot-log.py	/^import matplotlib as mpl$/;"	i
+namedtuple	scripts/parser.py	/^from collections import namedtuple$/;"	i
+next	include/cache_types.h	/^    cacheline *next;$/;"	m	struct:cacheline
+next	src/cache_types.h	/^    cacheline *next;$/;"	m	struct:cacheline
+nop_slide	include/asm.h	/^static inline void nop_slide() {$/;"	f
+nop_slide	src/asm.h	/^static inline void nop_slide() {$/;"	f
+nr_of_cachelines	include/cache_types.h	/^    uint32_t nr_of_cachelines;$/;"	m	struct:cache_ctx
+nr_of_cachelines	src/cache_types.h	/^    uint32_t nr_of_cachelines;$/;"	m	struct:cache_ctx
+os	src/gen_cache_asm_files.py	/^import os$/;"	i
+output_folder	scripts/plot-log.py	/^output_folder = args.output_folder$/;"	v
+padding	include/cache_types.h	/^    char padding[CACHELINE_SIZE - 2 * sizeof(cacheline *)$/;"	m	struct:cacheline
+padding	src/cache_types.h	/^    char padding[CACHELINE_SIZE - 2 * sizeof(cacheline *)$/;"	m	struct:cacheline
+pagemap_get_entry	src/addr_translation.c	/^int pagemap_get_entry(PagemapEntry *entry, int pagemap_fd, uintptr_t vaddr)$/;"	f
+parse	scripts/parser.py	/^    def parse(self, file_path, do_normalize=False, file_type=LogFile.DEFAULT):$/;"	m	class:Parser
+parse_default	scripts/parser.py	/^    def parse_default(self, log_file, do_normalize):$/;"	m	class:Parser
+parse_meta_data_internal	scripts/parser.py	/^    def parse_meta_data_internal(self, meta_data_conf, log_file):$/;"	m	class:Parser
+parse_samples	scripts/parser.py	/^    def parse_samples(self, fp, sample_cnt, sample_size):$/;"	m	class:Parser
+parser	scripts/plot-log.py	/^parser = Parser()$/;"	v
+parser	scripts/plot-log.py	/^parser = argparse.ArgumentParser()$/;"	v
+pfn	include/addr_translation.h	/^    uint64_t pfn : 54;$/;"	m	struct:__anon1
+pfn	src/addr_translation.h	/^    uint64_t pfn : 54;$/;"	m	struct:__anon2
+pin_to_cpu	src/util.c	/^void pin_to_cpu(int cpu) {$/;"	f
+plot_name	scripts/plot-log.py	/^plot_name = log_file_name.rsplit(".", 1)[0] + "_plot.png"$/;"	v
+plot_path	scripts/plot-log.py	/^plot_path = f"{output_folder}\/{plot_name}"$/;"	v
+plt	scripts/plot-log.py	/^import matplotlib.pyplot as plt$/;"	i
+prefetcht0	include/asm.h	/^static inline void prefetcht0(void *p) {$/;"	f
+prefetcht0	src/asm.h	/^static inline void prefetcht0(void *p) {$/;"	f
+prepare_cache_ds	src/cache.c	/^cacheline *prepare_cache_ds(cache_ctx *ctx) {$/;"	f
+prepare_cache_set_ds	src/cache.c	/^cacheline *prepare_cache_set_ds(cache_ctx *ctx, uint32_t *sets, uint32_t sets_len) {$/;"	f
+prepare_measurement	src/cache.c	/^void prepare_measurement() {$/;"	f
+prepare_victim	src/victim.c	/^cacheline *prepare_victim(cache_ctx *ctx, uint32_t target_set) {$/;"	f
+present	include/addr_translation.h	/^    unsigned int present : 1;$/;"	m	struct:__anon1
+present	src/addr_translation.h	/^    unsigned int present : 1;$/;"	m	struct:__anon2
+prev	include/cache_types.h	/^    cacheline *prev;$/;"	m	struct:cacheline
+prev	src/cache_types.h	/^    cacheline *prev;$/;"	m	struct:cacheline
+prime	include/cache.h	/^static inline cacheline *prime(cacheline *head) {$/;"	f
+prime	src/cache.h	/^static inline cacheline *prime(cacheline *head) {$/;"	f
+prime_cacheset	include/cache.h	/^static inline cacheline *prime_cacheset(cacheline *head) {$/;"	f
+prime_cacheset	src/cache.h	/^static inline cacheline *prime_cacheset(cacheline *head) {$/;"	f
+prime_rev	include/cache.h	/^static inline cacheline *prime_rev(cacheline *head) {$/;"	f
+prime_rev	src/cache.h	/^static inline cacheline *prime_rev(cacheline *head) {$/;"	f
+print_banner	include/io.h	/^static void print_banner(const char *msg) {$/;"	f
+print_banner	src/io.h	/^static void print_banner(const char *msg) {$/;"	f
+print_cache_ctx	include/cache_types.h	/^static void print_cache_ctx(cache_ctx *ctx) {$/;"	f
+print_cache_ctx	src/cache_types.h	/^static void print_cache_ctx(cache_ctx *ctx) {$/;"	f
+print_cacheline	include/cache_types.h	/^static void print_cacheline(cacheline *cl) {$/;"	f
+print_cacheline	src/cache_types.h	/^static void print_cacheline(cacheline *cl) {$/;"	f
+print_hex	include/io.h	/^static void print_hex(const char *str, uint16_t str_len) {$/;"	f
+print_hex	src/io.h	/^static void print_hex(const char *str, uint16_t str_len) {$/;"	f
+print_results	include/io.h	/^static void print_results(uint32_t *res, uint32_t sample_cnt,$/;"	f
+print_results	src/io.h	/^static void print_results(uint32_t *res, uint32_t sample_cnt,$/;"	f
+print_tagged	scripts/logger.py	/^    def print_tagged(self, out):$/;"	m	class:Logger
+probe	include/cache.h	/^static inline cacheline *probe(cache_level cl, cacheline *head) {$/;"	f
+probe	src/cache.h	/^static inline cacheline *probe(cache_level cl, cacheline *head) {$/;"	f
+probe_all_cachelines	include/cache.h	/^static inline cacheline *probe_all_cachelines(cacheline *head) {$/;"	f
+probe_all_cachelines	src/cache.h	/^static inline cacheline *probe_all_cachelines(cacheline *head) {$/;"	f
+probe_cacheset	include/cache.h	/^static inline cacheline *probe_cacheset(cache_level cl, cacheline *curr_cl) {$/;"	f
+probe_cacheset	src/cache.h	/^static inline cacheline *probe_cacheset(cache_level cl, cacheline *curr_cl) {$/;"	f
+probe_full_ds	include/cache.h	/^static inline uint32_t probe_full_ds(cacheline *head) {$/;"	f
+probe_full_ds	src/cache.h	/^static inline uint32_t probe_full_ds(cacheline *head) {$/;"	f
+random_perm	src/util.c	/^void random_perm(uint32_t *arr, uint32_t arr_len) {$/;"	f
+rdtsc	include/asm.h	/^static inline void rdtsc() {$/;"	f
+rdtsc	src/asm.h	/^static inline void rdtsc() {$/;"	f
+re	scripts/parser.py	/^import re$/;"	i
+re	src/gen_cache_asm_files.py	/^import re$/;"	i
+readq	include/asm.h	/^static inline void readq(void *p) {$/;"	f
+readq	src/asm.h	/^static inline void readq(void *p) {$/;"	f
+release_cache_ctx	include/cache_types.h	/^static void release_cache_ctx(cache_ctx *ctx) {$/;"	f
+release_cache_ctx	src/cache_types.h	/^static void release_cache_ctx(cache_ctx *ctx) {$/;"	f
+release_cache_ds	src/cache.c	/^void release_cache_ds(cache_ctx *ctx, cacheline *cache_ds) {$/;"	f
+release_cache_set_ds	src/cache.c	/^void release_cache_set_ds(cache_ctx *ctx, cacheline *cache_set_ds) {$/;"	f
+release_victim	src/victim.c	/^void release_victim(cache_ctx *ctx, cacheline *victim_cl) {$/;"	f
+remove_cache_group_set	include/cache_types.h	/^static void *remove_cache_group_set(void *ptr) {$/;"	f
+remove_cache_group_set	src/cache_types.h	/^static void *remove_cache_group_set(void *ptr) {$/;"	f
+remove_cache_set	include/cache_types.h	/^static void *remove_cache_set(cache_ctx *ctx, void *ptr) {$/;"	f
+remove_cache_set	src/cache_types.h	/^static void *remove_cache_set(cache_ctx *ctx, void *ptr) {$/;"	f
+scipy	scripts/plot-log.py	/^import scipy.stats.mstats as stats$/;"	i
+set_seed	src/util.c	/^void set_seed() {$/;"	f
+set_size	include/cache_types.h	/^    uint32_t set_size;$/;"	m	struct:cache_ctx
+set_size	src/cache_types.h	/^    uint32_t set_size;$/;"	m	struct:cache_ctx
+set_verbose	scripts/logger.py	/^    def set_verbose(self):$/;"	m	class:Logger
+sets	include/cache_types.h	/^    uint32_t sets;$/;"	m	struct:cache_ctx
+sets	src/cache_types.h	/^    uint32_t sets;$/;"	m	struct:cache_ctx
+sfence	include/asm.h	/^static inline void sfence() {$/;"	f
+sfence	src/asm.h	/^static inline void sfence() {$/;"	f
+soft_dirty	include/addr_translation.h	/^    unsigned int soft_dirty : 1;$/;"	m	struct:__anon1
+soft_dirty	src/addr_translation.h	/^    unsigned int soft_dirty : 1;$/;"	m	struct:__anon2
+start_timer	include/asm.h	/^static inline void start_timer() {$/;"	f
+start_timer	src/asm.h	/^static inline void start_timer() {$/;"	f
+stats	scripts/plot-log.py	/^import scipy.stats.mstats as stats$/;"	i
+std_per_entry	scripts/plot-log.py	/^std_per_entry   = list(map(tstd, samples))$/;"	v
+stop_timer	include/asm.h	/^static inline void stop_timer(uint32_t *tsc_low) {$/;"	f
+stop_timer	src/asm.h	/^static inline void stop_timer(uint32_t *tsc_low) {$/;"	f
+swap	src/util.c	/^void swap(uint32_t *e1, uint32_t *e2) {$/;"	f
+swapped	include/addr_translation.h	/^    unsigned int swapped : 1;$/;"	m	struct:__anon1
+swapped	src/addr_translation.h	/^    unsigned int swapped : 1;$/;"	m	struct:__anon2
+time_msrmt	include/cache_types.h	/^    time_type time_msrmt;$/;"	m	struct:cacheline
+time_msrmt	src/cache_types.h	/^    time_type time_msrmt;$/;"	m	struct:cacheline
+time_type	include/cache_types.h	/^typedef uint32_t time_type;$/;"	t
+time_type	src/cache_types.h	/^typedef uint32_t time_type;$/;"	t
+title	scripts/logger.py	/^    def title(self, title):$/;"	m	class:Logger
+tmean	scripts/plot-log.py	/^def tmean(arr):$/;"	f
+tstd	scripts/plot-log.py	/^def tstd(arr):$/;"	f
+usage	demo/argon2d-victim.c	/^void usage(const char *prog) {$/;"	f
+usage	demo/openssl-aes-cbc.c	/^void usage(const char *prog) {$/;"	f
+usage	demo/single-eviction.c	/^void usage(const char *prog) {$/;"	f
+user_abort	demo/argon2d-attacker.c	/^static volatile int user_abort = 0;$/;"	v	file:
+verbose	scripts/plot-log.py	/^verbose       = args.verbose$/;"	v
+victim	include/victim.h	/^static inline void victim(void *p) {$/;"	f
+victim	src/victim.h	/^static inline void victim(void *p) {$/;"	f
+victim_access_until_cached	include/victim.h	/^static inline void victim_access_until_cached(cache_ctx *ctx, void *p) {$/;"	f
+victim_access_until_cached	src/victim.h	/^static inline void victim_access_until_cached(cache_ctx *ctx, void *p) {$/;"	f
+victim_clflush	include/victim.h	/^static inline void victim_clflush(void *p) {$/;"	f
+victim_clflush	src/victim.h	/^static inline void victim_clflush(void *p) {$/;"	f
+victim_loop	include/victim.h	/^static inline void victim_loop(void *p, uint32_t nr) {$/;"	f
+victim_loop	src/victim.h	/^static inline void victim_loop(void *p, uint32_t nr) {$/;"	f
+warning	scripts/logger.py	/^    def warning(self, msg):$/;"	m	class:Logger
+x_vals	scripts/plot-log.py	/^x_vals = list(range(len(avg_per_entry)))$/;"	v
+y_lims	scripts/plot-log.py	/^y_lims        = eval(args.ylims)$/;"	v

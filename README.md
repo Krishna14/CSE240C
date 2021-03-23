@@ -30,3 +30,4 @@ In this project, I have collaborated with Zhenya Ma to deconstruct the prefetche
 1. The results for the prefetcher aware side channel attack have been presented in the report.
 2. Please look at the README inside the CacheSC folder to understand more about this attack.
 3. Code has been edited from @Miro Haller's work.
+4. To view the results of my experiments, please navigate to Project/CacheSC/results/
